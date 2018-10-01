@@ -1,0 +1,55 @@
+body{
+}
+
+.maincontent1{
+    margin-top: 1.4em;    
+    text-align: center;
+}
+.first-img{
+    width: 100%;
+}
+
+.bigtext{
+    color: #3b5998;
+    margin: 0 1.3em;
+    margin-bottom: 1.2em;
+   
+}
+.paragharp{
+    margin: 1.2em 1.3em;
+
+    
+}
+
+.to-the-top{
+    color: #dfe3ee;
+}
+
+@media screen and (min-width: 786px){
+    body{
+        background-image: url(img/black-1072366_1920.jpg);
+
+    }
+    .flexbox{
+        display: flex;
+        justify-content: center;
+    }
+    .continer-tablet{
+        margin-top: 3em;
+        margin-bottom: 3em;
+        width: 130vh;
+        background-color: #dfe3ee;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 20px 20px;
+    }
+    .to-the-top{
+        color: #dfe3ee;
+    }
+    img {
+        width: 80%;
+        border-width:1.2em;
+        border-style: solid;
+        border-color: black
+    }
+}

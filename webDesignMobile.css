@@ -1,0 +1,18 @@
+.img-web-design{
+    width: 100%;
+
+}
+
+.topPartWeb{
+    display: flex;
+    justify-content: center;
+    color: #3b5998;
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.about-text{
+margin-right: 3em;
+margin-left: 3em;
+}

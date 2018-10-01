@@ -1,0 +1,16 @@
+.footer-container{
+    
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    background-color: #cac0c0;
+}
+
+.text-footer{
+    position: relative;
+    left:2em;  
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-right: 4em;
+    height: 2em;
+}
