@@ -1,0 +1,68 @@
+@media screen and (min-width: 786px){
+
+
+    body{
+        background-image: url(img/black-1072366_1920.jpg);
+
+    }
+
+    .flexbox{
+        display: flex;
+        justify-content: center;
+    }
+    .continer-tablet{ 
+        display: flex;
+        justify-content: center;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        width: 130vh;
+        height: 80vh;
+        background-color: #dfe3ee;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 20px 20px;
+    }
+    .message-container{ 
+        background-color: white;
+        width: 25em;
+        margin-bottom: 3em;
+        margin-top: 2em;
+        border-width: 1em;
+        border-color: gray;
+        border-style: solid;   
+        border-radius: 5px;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 10px 12px #888888; 
+       
+    }
+
+    .inputbox{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    }
+    .first-namefield{
+    height:3em;
+    width: 12em;
+    border-radius: 5px;
+    border-color: gray;
+    }
+    .E-mail{
+    height: 3em;
+    width: 25em;
+    border-radius: 5px;
+    border-color: gray;
+    }
+    .message{
+    height: 20em;
+    width: 36em;
+    border-radius: 5px;
+    border-color: gray;
+    }
+    
+
+
+}

@@ -14,3 +14,28 @@
     margin-right: 4em;
     height: 2em;
 }
+.to-the-top{
+    color: #dfe3ee;
+}
+.to-the-main-title{ 
+    display: none;
+}
+
+@media screen and (min-width: 786px){
+.to-the-top{
+    color: #dfe3ee;
+}
+.to-the-main-title{ 
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    background-color: green;
+    text-decoration: none;
+    color: #fff;
+    height: 4em;
+    width: 6em;
+    border-width: 1.2em;
+    border-radius: 25px;
+}
+
+}
