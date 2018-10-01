@@ -75,7 +75,7 @@ body{
 iframe{
     position: relative;
     bottom: 5em ;
-width: 100%;
+    width: 100%;
 } 
 
 .list-container{
@@ -92,4 +92,33 @@ width: 100%;
     border-color: black;
     border-style: solid;
     border-width:2px;;
+}
+@media screen and (min-width: 786px){
+
+
+    body{
+        background-image: url(img/black-1072366_1920.jpg);
+
+    }
+    .flexbox{
+        display: flex;
+        justify-content: center;
+    }
+    .continer-tablet{
+        margin-top: 3em;
+        margin-bottom: 3em;
+        width: 130vh;
+        background-color: #dfe3ee;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 20px 20px;
+    }
+
+    iframe{
+        position: relative;
+        bottom: 5em ;
+        left: 11em;
+        width: 80vh;
+        border-width: 2em;
+    } 
 }
