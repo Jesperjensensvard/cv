@@ -1,6 +1,5 @@
 .img-web-design{
     width: 100%;
-
 }
 
 .topPartWeb{
@@ -16,6 +15,9 @@
     margin-right: 3em;
     margin-left: 3em;
 }
+
+
+
 @media screen and (min-width: 786px){
     body{
         background-image: url(img/black-1072366_1920.jpg);
